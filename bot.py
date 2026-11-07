@@ -27,8 +27,8 @@ import requests
 # SETTINGS
 # ============================================================================
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8869930845:AAFmPDJiAaHUhi64QkQLt2ZBnguYVPptZ4o")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "7499011694")
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 SYMBOL = "GC=F"          # Gold futures on Yahoo (spot gold = "XAUUSD=X", lower quality data)
 INTERVAL = "15m"
